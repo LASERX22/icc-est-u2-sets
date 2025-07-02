@@ -1,26 +1,27 @@
 import java.util.Set;
-import java.util.Stack;
-
+import controllers.ContactoController;
 import controllers.Sets;
 
 public class App {
     public static void main(String[] args) throws Exception {
-        System.out.println("Hello, World!");
-        Sets sets = new Sets();
-        System.out.println("HashSet");
-        runHashSet(sets);
-        System.out.println();
-        System.out.println("LinkedHashet");
-        runLinkedHashSet(sets);
-        System.out.println();
-        System.out.println("TreeSet");
-        runTreeSet(sets);
-        System.out.println();
-        System.out.println("TreeSetConComparador");
-        runTreeSetConComparador(sets);
-        System.out.println();
-        System.out.println("TreeSetConComparador2");
-        runTreeSetConComparador2(sets);
+        // System.out.println("Hello, World!");
+        // Sets sets = new Sets();
+        // System.out.println("HashSet");
+        // runHashSet(sets);
+        // System.out.println();
+        // System.out.println("LinkedHashet");
+        // runLinkedHashSet(sets);
+        // System.out.println();
+        // System.out.println("TreeSet");
+        // runTreeSet(sets);
+        // System.out.println();
+        // System.out.println("TreeSetConComparador");
+        // runTreeSetConComparador(sets);
+        // System.out.println();
+        // System.out.println("TreeSetConComparador2");
+        // runTreeSetConComparador2(sets);
+
+        ContactoController contactos=new ContactoController();
     }
 
     public static void runHashSet(Sets sets) {
