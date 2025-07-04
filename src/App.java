@@ -1,5 +1,6 @@
 import java.util.Set;
 import controllers.ContactoController;
+import controllers.Ejercicios;
 import controllers.Sets;
 
 public class App {
@@ -21,7 +22,8 @@ public class App {
         // System.out.println("TreeSetConComparador2");
         // runTreeSetConComparador2(sets);
 
-        ContactoController contactos=new ContactoController();
+        //ContactoController contactos=new ContactoController();
+        Ejercicios ejercicio=new Ejercicios();
     }
 
     public static void runHashSet(Sets sets) {
